@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Kudry Sans Headline';
+    src: url('Kudry-SansHeadline.eot');
+    src: local('Kudry Sans Headline'), local('Kudry-SansHeadline'),
+        url('Kudry-SansHeadline.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-SansHeadline.woff2') format('woff2'),
+        url('Kudry-SansHeadline.woff') format('woff'),
+        url('Kudry-SansHeadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Sans Text';
+    src: url('Kudry-SansText.eot');
+    src: local('Kudry Sans Text'), local('Kudry-SansText'),
+        url('Kudry-SansText.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-SansText.woff2') format('woff2'),
+        url('Kudry-SansText.woff') format('woff'),
+        url('Kudry-SansText.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Stencil Headline';
+    src: url('Kudry-StencilHeadline.eot');
+    src: local('Kudry Stencil Headline'), local('Kudry-StencilHeadline'),
+        url('Kudry-StencilHeadline.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-StencilHeadline.woff2') format('woff2'),
+        url('Kudry-StencilHeadline.woff') format('woff'),
+        url('Kudry-StencilHeadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Stencil Display';
+    src: url('Kudry-StencilDisplay.eot');
+    src: local('Kudry Stencil Display'), local('Kudry-StencilDisplay'),
+        url('Kudry-StencilDisplay.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-StencilDisplay.woff2') format('woff2'),
+        url('Kudry-StencilDisplay.woff') format('woff'),
+        url('Kudry-StencilDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Classic Display';
+    src: url('Kudry-ClassicDisplay.eot');
+    src: local('Kudry Classic Display'), local('Kudry-ClassicDisplay'),
+        url('Kudry-ClassicDisplay.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-ClassicDisplay.woff2') format('woff2'),
+        url('Kudry-ClassicDisplay.woff') format('woff'),
+        url('Kudry-ClassicDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Classic Text';
+    src: url('Kudry-ClassicText.eot');
+    src: local('Kudry Classic Text'), local('Kudry-ClassicText'),
+        url('Kudry-ClassicText.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-ClassicText.woff2') format('woff2'),
+        url('Kudry-ClassicText.woff') format('woff'),
+        url('Kudry-ClassicText.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Sans Display';
+    src: url('Kudry-SansDisplay.eot');
+    src: local('Kudry Sans Display'), local('Kudry-SansDisplay'),
+        url('Kudry-SansDisplay.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-SansDisplay.woff2') format('woff2'),
+        url('Kudry-SansDisplay.woff') format('woff'),
+        url('Kudry-SansDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Classic Headline';
+    src: url('Kudry-ClassicHeadline.eot');
+    src: local('Kudry Classic Headline'), local('Kudry-ClassicHeadline'),
+        url('Kudry-ClassicHeadline.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-ClassicHeadline.woff2') format('woff2'),
+        url('Kudry-ClassicHeadline.woff') format('woff'),
+        url('Kudry-ClassicHeadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Stencil Text';
+    src: url('Kudry-StencilText.eot');
+    src: local('Kudry Stencil Text'), local('Kudry-StencilText'),
+        url('Kudry-StencilText.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-StencilText.woff2') format('woff2'),
+        url('Kudry-StencilText.woff') format('woff'),
+        url('Kudry-StencilText.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Weird Text';
+    src: url('Kudry-WeirdText.eot');
+    src: local('Kudry Weird Text'), local('Kudry-WeirdText'),
+        url('Kudry-WeirdText.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-WeirdText.woff2') format('woff2'),
+        url('Kudry-WeirdText.woff') format('woff'),
+        url('Kudry-WeirdText.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Weird Display';
+    src: url('Kudry-WeirdDisplay.eot');
+    src: local('Kudry Weird Display'), local('Kudry-WeirdDisplay'),
+        url('Kudry-WeirdDisplay.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-WeirdDisplay.woff2') format('woff2'),
+        url('Kudry-WeirdDisplay.woff') format('woff'),
+        url('Kudry-WeirdDisplay.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kudry Weird Headline';
+    src: url('Kudry-WeirdHeadline.eot');
+    src: local('Kudry Weird Headline'), local('Kudry-WeirdHeadline'),
+        url('Kudry-WeirdHeadline.eot?#iefix') format('embedded-opentype'),
+        url('Kudry-WeirdHeadline.woff2') format('woff2'),
+        url('Kudry-WeirdHeadline.woff') format('woff'),
+        url('Kudry-WeirdHeadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

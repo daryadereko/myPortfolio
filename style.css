@@ -1,0 +1,400 @@
+@font-face {
+    font-family: "Kudry Weird Headline";
+    src: url("fonts/kudry/Kudry-WeirdHeadline.woff2") format("woff2"),
+        url("fonts/kudry/Kudry-WeirdHeadline.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 92px;
+}
+
+body {
+    margin: 0;
+}
+
+.upperVectors {
+    position: absolute;
+    top: 112px;
+    left: -24px;
+    width: 100vw;
+    transform: scaleY(1.04);
+    transform-origin: top left;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.middleVectors {
+    position: absolute;
+    top: 1450px;
+    left: 0;
+    width: 100vw;
+    transform: scaleX(1) scaleY(1.07);
+    transform-origin: bottom left;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.lowerVectors {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    transform: scaleX(1.05) scaleY(1.03);
+    transform-origin: bottom left;
+    z-index: -1;
+    pointer-events: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    height: 92px;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #292929;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Dela Gothic One", sans-serif;
+    padding: 20px 40px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#aboutme a:hover {
+    background-color: #fbaaff;
+    color: white;
+}
+
+#services a:hover {
+    background-color: #aaaaff;
+    color: white;
+}
+
+#portfolio a:hover {
+    background-color: #84cbd3;
+    color: white;
+}
+
+#contacts a:hover {
+    background-color: #88d384;
+    color: white;
+}
+
+.mainFrame {
+    padding: 0;
+    margin: 0;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.arrow {
+    cursor: pointer;
+    transition: filter 6s ease;
+}
+
+.mainFrame .arrow {
+    margin-bottom: 60px;
+}
+
+.headline {
+    font-family: "Kudry Weird Headline", sans-serif;
+    font-size: 75px;
+    color: #292929;
+    padding: 0;
+    margin: 0;
+}
+
+.headline span {
+    cursor: default;
+    transition: filter 10s ease;
+}
+
+.arrow:hover,
+.headline span:hover {
+    filter: invert(88%) sepia(93%) saturate(7483%) hue-rotate(336deg)
+        brightness(94%) contrast(95%) brightness(0) saturate(100%) invert(92%)
+        sepia(68%) saturate(1099%) hue-rotate(238deg) brightness(101%)
+        contrast(106%);
+}
+
+h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+#aboutMeFrame {
+    padding: 0;
+    margin: 0;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+}
+
+.card {
+    width: 690px;
+    height: 440px;
+    background-color: white;
+    border-radius: 35px;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 65px;
+    padding-right: 65px;
+    gap: 30px;
+}
+
+h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 36px;
+    color: #292929;
+    font-weight: 500;
+    text-align: center;
+}
+
+p,
+.text a {
+    color: #292929;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: end;
+    padding: 0;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.text a:hover {
+    color: #aaaaff;
+}
+
+.text {
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text span {
+    padding-top: 20px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #31a8ff;
+}
+
+#servicesFrame {
+    padding: 0;
+    margin: 0;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    position: relative;
+}
+
+#servicesFrame .card {
+    z-index: 1;
+}
+
+#servicesFrame span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 690px;
+    gap: 51px;
+}
+
+.content ul {
+    padding: 0;
+    margin: 0;
+}
+
+.content ul li {
+    color: #292929;
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 70px;
+    padding-left: 35px;
+}
+
+.content ul li::marker {
+    font-size: 1.5em;
+}
+
+.leftRect {
+    position: absolute;
+    left: 0;
+    width: 495px;
+    height: 780px;
+    background-color: #292929;
+    border-bottom-right-radius: 80px;
+}
+
+.topRect {
+    position: absolute; /* это главное! */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background-color: #292929;
+    z-index: 0;
+}
+
+.rightRect {
+    position: absolute;
+    right: 0;
+    width: 495px;
+    height: 780px;
+    background-color: #292929;
+    border-bottom-left-radius: 80px;
+}
+
+#portfolioFrame {
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolioFrame h2 {
+    margin: 0;
+    padding-top: 50px;
+}
+
+.portfolioContent {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.left {
+    transform: rotate(180deg);
+    margin-left: auto;
+    padding-left: 3vh;
+}
+
+.right {
+    padding-left: 3vh;
+    margin-right: auto;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    height: 500px;
+    width: auto;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+footer {
+    position: relative;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+    height: 234px;
+    z-index: 0;
+}
+
+#footerMenu {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+
+footer p,
+#footerMenu li,
+#footerMenu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Dela Gothic One", sans-serif;
+    transition: color 0.3s ease;
+    z-index: 1;
+}
+
+#telegram:hover {
+    color: #aaaaff;
+}
+
+#instagram:hover {
+    color: #fbaaff;
+}
+
+#gmail:hover {
+    color: #ffaaaa;
+}
